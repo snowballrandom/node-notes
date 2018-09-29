@@ -13,9 +13,7 @@ const argv = yargs.argv;
 const app = {
     
     start: () => {
-        
-        response = app.response;
-        
+                
         switch(argv._[0]){
             case 'add':
                 console.log('Adding Note...');
@@ -39,7 +37,7 @@ const app = {
                 break;
         }
         
-        return response;
+        return app.response;
     },
     
     add: () => {
