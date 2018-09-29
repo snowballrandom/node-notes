@@ -1,7 +1,3 @@
-/**
- * Notes is a simple file manipultion program.
- * @type type
- */
 console.log('Starting notes.js');
 
 const fs = require('fs');
